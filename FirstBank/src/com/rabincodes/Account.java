@@ -55,6 +55,17 @@ public class Account {
 	void showMenu() {
 		char option = '\0';
 		Scanner  scanner = new Scanner(System.in);
+		System.out.println("Welcome, " + customerName + "!");
+		System.out.println("Your ID is: " + customerID);
+		System.out.println();
+		System.out.println("What would you like to do?");
+		System.out.println();
+		System.out.println("A. Check your balance");
+		System.out.println("B. Make a balance");
+		System.out.println("C. Make a withdrawal");
+		System.out.println("D. View previous transaction");
+		System.out.println("E. Calculate interest");
+		System.out.println("F. Exit");
 		
 	}
 	
